@@ -17,7 +17,7 @@ from flask import Flask, jsonify, request
 import telebot
 from telebot.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-BOT_TOKEN = os.getenv("BOT_TOKEN", "8809444250:AAE1C2V5HyfoMrIfFRvVN9px4KCRJ3fP_ZM").strip()
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8862931913:AAFLGMCWYYeSE1hbiUCWZoNAs0Ul7oEA8rc").strip()
 ADMIN_IDS = {x.strip() for x in os.getenv("ADMIN_IDS", "8801844480").split(",") if x.strip()}
 SERVER_URL = os.getenv("SERVER_URL", "https://toolxw-server.onrender.com").rstrip("/")
 SERVER_SECRET = os.getenv("SERVER_SECRET", "ToolxwFileLock_2026_4Yp8N7vQ2mK6").strip()
