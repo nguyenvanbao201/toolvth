@@ -1,7 +1,0 @@
-flask>=3.0,<4
-gunicorn>=21,<24
-pyTelegramBotAPI>=4.20,<5
-requests>=2.31,<3
-rich>=13,<15
-pytz>=2024.1
-websocket-client>=1.7,<2
