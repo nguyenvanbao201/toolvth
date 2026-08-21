@@ -18,9 +18,9 @@ import telebot
 from telebot.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 ID_ADMIN = os.getenv("ID_ADMIN", "8801844480").strip()
-BOT = os.getenv("BOT", "").strip()
+BOT = os.getenv("BOT", "8862931913:AAFLGMCWYYeSE1hbiUCWZoNAs0Ul7oEA8rc").strip()
 BOT_TOKEN = BOT
-PRIMARY_ADMIN_ID = os.getenv("PRIMARY_ADMIN_ID", "").strip()
+PRIMARY_ADMIN_ID = os.getenv("PRIMARY_ADMIN_ID", "8801844480").strip()
 ADMIN_IDS = {ID_ADMIN} if ID_ADMIN else set()
 if PRIMARY_ADMIN_ID:
     ADMIN_IDS.add(PRIMARY_ADMIN_ID)
